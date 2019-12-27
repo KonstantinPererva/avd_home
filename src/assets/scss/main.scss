@@ -1,0 +1,57 @@
+//@import "avtodiski";
+
+//@import "utils/vars";
+//@import "utils/mixins";
+//@import "utils/normalize";
+//@import "utils/reset";
+//@import "utils/base";
+//@import "utils/fonts";
+
+//@import "popup/popup-buy";
+//@import "popup/popup-buy-substrate";
+//@import "popup/popup-buy-content";
+//@import "popup/popup-buy-title";
+//@import "popup/popup-buy-close";
+//@import "popup/popup-buy-detail";
+//@import "popup/popup-button-order";
+//@import "popup/popup-button-continue";
+//@import "popup/popup-button-wrapper";
+//@import "popup/form-quick-order";
+
+
+
+//@import "button-tel/order-tel";
+//@import "button-tel/order-tel-title";
+//@import "button-tel/order-tel-dropdown";
+//@import "button-tel/order-tel-list";
+//@import "button-tel/order-tel-link";
+
+
+
+//@import "calculation/calculation";
+
+
+
+@import "main-page/header-main/header-main";
+@import "main-page/header-main/header-main-menu-top";
+@import "main-page/header-main/header-main-login";
+@import "main-page/header-main/header-main-row";
+@import "main-page/header-main/header-main-logo";
+@import "main-page/header-main/header-main-tel";
+@import "main-page/header-main/header-main-tel-list";
+@import "main-page/header-main/header-main-tel-block";
+@import "main-page/header-main/header-main-callback";
+@import "main-page/header-main/header-main-search";
+@import "main-page/header-main/form-search-desktop";
+@import "main-page/header-main/header-main-work-time";
+@import "main-page/header-main/header-main-language-list";
+@import "main-page/header-main/header-main-menu-bottom";
+@import "main-page/header-main/header-main-cart";
+@import "main-page/header-main/button-main-cart";
+@import "main-page/header-main/header-main-fixed";
+
+@import "main-page/page-content";
+
+@import "main-page/filter-main/filter-main";
+@import "main-page/filter-main/filter-main-list";
+@import "main-page/filter-main/filter-main-block";
