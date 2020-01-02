@@ -37,7 +37,7 @@
       & > ul {
         position: absolute;
         z-index: 1;
-        min-width: 100%;
+        min-width: calc(100% + 30px);
         top: 100%;
         left: -15px;
         list-style: none;

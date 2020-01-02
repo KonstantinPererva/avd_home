@@ -31,6 +31,18 @@
 //@import "calculation/calculation";
 
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  &:after, &:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
 
 @import "main-page/header-main/header-main";
 @import "main-page/header-main/header-main-menu-top";
@@ -55,3 +67,31 @@
 @import "main-page/filter-main/filter-main";
 @import "main-page/filter-main/filter-main-list";
 @import "main-page/filter-main/filter-main-block";
+@import "main-page/filter-main/filter-main-panel";
+@import "main-page/filter-main/button-filter-switch";
+@import "main-page/filter-main/filter-main-body";
+@import "main-page/filter-main/filter-main-title";
+
+@import "main-page/section-page/section-page";
+@import "main-page/section-page/section-page-title";
+@import "main-page/section-page/section-page-header";
+@import "main-page/section-page/section-page-panel";
+@import "main-page/section-page/section-page-body";
+@import "main-page/section-page/section-page-view-all";
+@import "main-page/section-page/button-view-all";
+@import "main-page/section-page/button-section-switch";
+@import "main-page/section-page/action-desktop";
+@import "main-page/section-page/articles-desktop";
+@import "main-page/section-page/reviews-desktop";
+
+
+
+@import "main-page/footer-main/footer-main";
+@import "main-page/footer-main/payment-methods";
+@import "main-page/footer-main/footer-main-hold";
+@import "main-page/footer-main/soc-net";
+@import "main-page/footer-main/footer-main-box";
+@import "main-page/footer-main/footer-main-logo";
+@import "main-page/footer-main/footer-main-menu";
+
+

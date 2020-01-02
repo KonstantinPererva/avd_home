@@ -1,0 +1,34 @@
+.button-section-switch {
+  width: 200px;
+  height: 50px;
+  font-size: 14px;
+  color: #FBE11A;
+  font-family: OpenSans, sans-serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+
+  &.active {
+    color: #333;
+    font-weight: bold;
+
+    & .button-section-switch__skew {
+      background: #F5F5F5;
+    }
+  }
+
+  &__skew {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    transform: skew(15deg);
+    background: #3D3D3D;
+    padding: 0 10px;
+  }
+
+  &__text {
+    display: block;
+    transform: skew(-15deg);
+  }
+}

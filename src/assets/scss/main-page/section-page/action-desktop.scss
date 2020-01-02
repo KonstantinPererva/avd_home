@@ -1,0 +1,42 @@
+.action-desktop {
+
+  & .section-page-body {
+    height: 510px;
+  }
+
+  & .prev, & .next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  & .prev {
+    left: 15px;
+  }
+
+  & .next {
+    right: 15px;
+  }
+
+  & .box {
+    height: 480px;
+    overflow: hidden;
+  }
+  
+  & .swipe_e {
+    position: relative;
+  }
+
+  & .goods li {
+    width: 240px;
+    height: 410px;
+    margin: 0 10px;
+    text-align: left;
+  }
+}
