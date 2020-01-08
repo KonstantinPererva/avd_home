@@ -1,4 +1,91 @@
 .filter-main-body {
   height: 235px;
   background: #F5F5F5;
+
+  & form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 25px 36px;
+
+    & .text_align {
+      display: block;
+      width: 100%;
+    }
+
+    & .left {
+      margin-right: 10px;
+    }
+
+    & .jq-selectbox {
+      width: 180px;
+      display: block !important;
+
+      & .jq-selectbox__select {
+        box-shadow: none;
+        border: 1px solid #C4C4C4;
+        background: transparent;
+        height: 35px;
+        width: 180px;
+        padding: 0 28px 0 11px;
+        display: flex;
+        align-items: center;
+      }
+
+      & .jq-selectbox__select-text {
+        font-size: 14px;
+        line-height: 14px;
+        color: #c4c4c4;
+        font-family: OpenSans, sans-serif;
+      }
+
+      & .jq-selectbox__trigger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        box-shadow: none;
+        background: transparent;
+
+        & .jq-selectbox__trigger-arrow {
+          width: 8px;
+          height: 8px;
+          background: url(/img/arrow-gray.png) no-repeat center;
+        }
+      }
+
+      &.changed {
+        & .jq-selectbox__select-text {
+          color: #333333;
+        }
+      }
+    }
+
+    & .button.button_search_avto {
+      border: 2px solid #191a1b;
+      background: #FBE11A;
+      color: #191A1B;
+      border-radius: 2px;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 14px;
+      font-family: OpenSans, sans-serif;
+      height: 35px;
+      padding: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 180px;
+      margin-top: 19px;
+      box-shadow: none;
+
+      &:hover {
+        box-shadow: none;
+        background: #FBCD18;
+      }
+    }
+  }
 }

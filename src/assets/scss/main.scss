@@ -30,7 +30,7 @@
 
 //@import "calculation/calculation";
 
-
+/*
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -42,7 +42,7 @@
     box-sizing: border-box;
   }
 }
-
+*/
 
 @import "main-page/header-main/header-main";
 @import "main-page/header-main/header-main-menu-top";
@@ -71,6 +71,8 @@
 @import "main-page/filter-main/button-filter-switch";
 @import "main-page/filter-main/filter-main-body";
 @import "main-page/filter-main/filter-main-title";
+@import "main-page/filter-main/filter-main-clear";
+@import "main-page/filter-main/button-filter-clear";
 
 @import "main-page/section-page/section-page";
 @import "main-page/section-page/section-page-title";
