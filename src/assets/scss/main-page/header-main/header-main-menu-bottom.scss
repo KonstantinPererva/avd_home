@@ -14,8 +14,15 @@
       position: relative;
       margin: 0 21px 0 0;
 
+      @media (hover: hover) {
+        &:hover {
+          & a svg {
+            transform: rotate(180deg);
+          }
+        }
+      }
+
       & a {
-        display: block;
         font-size: 16px;
         line-height: 18px;
         color: #fff;
@@ -24,6 +31,13 @@
         cursor: pointer;
         padding: 8px 0;
         white-space: nowrap;
+        display: flex;
+        align-items: center;
+
+        & svg {
+          display: block;
+          margin: 0 0 0 7px;
+        }
 
         @media (hover: hover) {
           &:hover {

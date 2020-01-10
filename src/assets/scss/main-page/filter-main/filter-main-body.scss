@@ -1,4 +1,5 @@
 .filter-main-body {
+  position: relative;
   height: 235px;
   background: #F5F5F5;
 
@@ -12,31 +13,34 @@
     }
   }
 
+  & .block {
+    margin-bottom: 0;
+  }
+
   & form {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     padding: 0 25px;
+    min-height: 194px;
 
     & .button-search-wrapper {
-      display: block;
+      display: flex;
+      justify-content: center;
       width: 100%;
-      text-align: center;
+      margin-top: 6px;
     }
 
     & .filter-form-row {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
     }
 
     & .jq-selectbox {
       flex-shrink: 0;
       width: 180px;
       display: block !important;
-
-      &:nth-child(even) {
-        margin-left: 10px;
-      }
 
       & .jq-selectbox__select {
         box-shadow: none;
@@ -98,12 +102,13 @@
       align-items: center;
       justify-content: center;
       width: 180px;
-      margin-top: 19px;
       box-shadow: none;
+      cursor: pointer;
 
       &:hover {
         box-shadow: none;
-        background: #FBCD18;
+        color: #FBCD18;
+        background: #191A1B;
       }
     }
   }
@@ -113,6 +118,7 @@
     background: #fff;
     border: 1px solid #c4c4c4;
     border-radius: 2px;
+    margin: -1px 0 0;
   }
 
   & .jq-selectbox li {

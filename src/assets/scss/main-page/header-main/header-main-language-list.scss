@@ -4,16 +4,18 @@
 
   & a {
     margin: 0 0 0 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
     height: 19px;
     text-decoration: none;
     color: #fff;
     font-size: 12px;
-    line-height: 12px;
-    padding: 3px 10px;
+    line-height: 19px;
+    padding: 0 10px;
     border-radius: 2px;
+
+    &:first-letter {
+      text-transform: uppercase;
+    }
 
     &.act {
       font-weight: bold;
@@ -21,4 +23,8 @@
 
     }
   }
+}
+
+#lang_site.header-main-language-list a {
+  margin-right: 0;
 }

@@ -28,6 +28,19 @@
   & .box {
     height: 480px;
     overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+    visibility: hidden;
+
+    &.active {
+      position: relative;
+      opacity: 1;
+      z-index: 1;
+      visibility: visible;
+    }
   }
   
   & .swipe_e {
@@ -174,7 +187,8 @@
 
     &:hover {
       box-shadow: none;
-      background: #FBCD18;
+      color: #FBCD18;
+      background: #191A1B;
     }
   }
 
@@ -200,7 +214,7 @@
 
     &:hover {
       box-shadow: none;
-      background: #498DF1;
+      background: #247da5;
     }
   }
 }

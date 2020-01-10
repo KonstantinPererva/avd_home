@@ -23,18 +23,8 @@
     outline: none;
   }
 
-  &.act {
-    & .button-main-cart__text {
-      display: none;
-    }
-
-    & .button-main-cart__num {
-      display: block;
-    }
-
-    & .button-main-cart__counter {
-      display: flex;
-    }
+  &__num {
+    display: block;
   }
 
   &__ico {
@@ -51,24 +41,25 @@
     display: block;
   }
 
-  &__counter {
-    align-items: center;
-    justify-content: center;
-    min-width: 14px;
-    height: 14px;
-    border-radius: 7px;
-    background: #40BAF1;
-    color: #fff;
-    font-size: 8px;
-    line-height: 8px;
-    font-weight: bold;
-    position: absolute;
-    top: -6px;
-    right: -8px;
-    display: none;
+  &:hover, &:active, &:focus {
+    text-decoration: none;
+    outline: none;
   }
+}
 
-  &__num {
-    display: none;
-  }
+#countcart.button-main-cart__counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 17px;
+  height: 17px;
+  border-radius: 9px;
+  background: #40BAF1;
+  color: #fff;
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: bold;
+  position: absolute;
+  top: -8px;
+  right: -10px;
 }
