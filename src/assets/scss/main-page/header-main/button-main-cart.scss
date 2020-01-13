@@ -23,6 +23,23 @@
     outline: none;
   }
 
+  &__counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 17px;
+    height: 17px;
+    border-radius: 9px;
+    background: #40BAF1;
+    color: #fff;
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: -8px;
+    right: -10px;
+  }
+
   &__num {
     display: block;
   }

@@ -95,3 +95,36 @@ if (document.querySelectorAll('.order-tel').length) {
         slide.btn.addEventListener('click', slide.toggle);
     });
 }
+
+
+
+(function fixedHeaderMainDesktop() {
+    var self = this;
+
+    if (document.querySelectorAll('.header-main__wrapper-children').length) {
+        self.header = document.querySelector('.header-main__wrapper-children');
+        self.headerFixed = document.querySelector('.header-main-fixed');
+        self.headerHeight = self.header.getBoundingClientRect().top - self.header.getBoundingClientRect().bottom;
+
+        self.visibleHeader = function() {
+            self.headerFixed.style.display = 'block';
+            setTimeout(function () {
+                self.headerFixed.classList.remove('header-hidden');
+            },0);
+        };
+
+        self.hideHeader = function() {
+            self.headerFixed.style.display = 'none';
+            self.headerFixed.classList.add('header-hidden');
+        };
+
+        window.addEventListener('scroll', function () {
+            self.headerTop = self.header.getBoundingClientRect().top;
+            if (self.headerTop < self.headerHeight) {
+                self.visibleHeader();
+            }  else {
+                self.hideHeader();
+            }
+        });
+    }
+})();

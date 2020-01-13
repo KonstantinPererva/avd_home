@@ -1,5 +1,8 @@
 .payment-methods {
-  margin: 0 0 30px;
+
+  & + div {
+    margin: 30px 0 0;
+  }
   
   &-title {
     font-size: 16px;
