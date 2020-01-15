@@ -1,0 +1,10 @@
+.clone {
+  display: flex;
+  justify-content: space-between;
+  
+  &-basket {
+    width: 100px;
+    height: 60px;
+    background: #ccc;
+  }
+}
