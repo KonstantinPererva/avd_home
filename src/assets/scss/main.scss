@@ -44,64 +44,95 @@
 }
 */
 
-@import "main-page/header-main/header-main";
-@import "main-page/header-main/header-main-menu-top";
-@import "main-page/header-main/header-main-login";
-@import "main-page/header-main/header-main-row";
-@import "main-page/header-main/header-main-logo";
-@import "main-page/header-main/header-main-tel";
-@import "main-page/header-main/header-main-tel-list";
-@import "main-page/header-main/header-main-tel-block";
-@import "main-page/header-main/header-main-callback";
-@import "main-page/header-main/header-main-search";
-@import "main-page/header-main/form-search-desktop";
-@import "main-page/header-main/header-main-work-time";
-@import "main-page/header-main/header-main-language-list";
-@import "main-page/header-main/header-main-menu-bottom";
-@import "main-page/header-main/header-main-cart";
-@import "main-page/header-main/button-main-cart";
-@import "main-page/header-main/header-main-fixed";
-
-@import "main-page/page-content";
-
-@import "main-page/filter-main/filter-main";
-@import "main-page/filter-main/filter-main-list";
-@import "main-page/filter-main/filter-main-block";
-@import "main-page/filter-main/filter-main-panel";
-@import "main-page/filter-main/button-filter-switch";
-@import "main-page/filter-main/filter-main-body";
-@import "main-page/filter-main/filter-main-title";
-@import "main-page/filter-main/filter-main-clear";
-@import "main-page/filter-main/button-filter-clear";
-@import "main-page/filter-main/filter-search";
-
-@import "main-page/section-page/section-page";
-@import "main-page/section-page/section-page-title";
-@import "main-page/section-page/section-page-header";
-@import "main-page/section-page/section-page-panel";
-@import "main-page/section-page/section-page-body";
-@import "main-page/section-page/section-page-view-all";
-@import "main-page/section-page/button-view-all";
-@import "main-page/section-page/button-section-switch";
-@import "main-page/section-page/action-desktop";
-@import "main-page/section-page/articles-desktop";
-@import "main-page/section-page/reviews-desktop";
 
 
 
-@import "main-page/footer-main/footer-main";
-@import "main-page/footer-main/payment-methods";
-@import "main-page/footer-main/footer-main-hold";
-@import "main-page/footer-main/soc-net";
-@import "main-page/footer-main/footer-main-box";
-@import "main-page/footer-main/footer-main-logo";
-@import "main-page/footer-main/footer-main-menu";
 
 
+//@import "main-page/header-main/header-main";
+//@import "main-page/header-main/header-main-menu-top";
+//@import "main-page/header-main/header-main-login";
+//@import "main-page/header-main/header-main-row";
+//@import "main-page/header-main/header-main-logo";
+//@import "main-page/header-main/header-main-tel";
+//@import "main-page/header-main/header-main-tel-list";
+//@import "main-page/header-main/header-main-tel-block";
+//@import "main-page/header-main/header-main-callback";
+//@import "main-page/header-main/header-main-search";
+//@import "main-page/header-main/form-search-desktop";
+//@import "main-page/header-main/header-main-work-time";
+//@import "main-page/header-main/header-main-language-list";
+//@import "main-page/header-main/header-main-menu-bottom";
+//@import "main-page/header-main/header-main-cart";
+//@import "main-page/header-main/button-main-cart";
+//@import "main-page/header-main/header-main-fixed";
+//
+//@import "main-page/page-content";
+//
+//@import "main-page/filter-main/filter-main";
+//@import "main-page/filter-main/filter-main-list";
+//@import "main-page/filter-main/filter-main-block";
+//@import "main-page/filter-main/filter-main-panel";
+//@import "main-page/filter-main/button-filter-switch";
+//@import "main-page/filter-main/filter-main-body";
+//@import "main-page/filter-main/filter-main-title";
+//@import "main-page/filter-main/filter-main-clear";
+//@import "main-page/filter-main/button-filter-clear";
+//@import "main-page/filter-main/filter-search";
+//
+//@import "main-page/section-page/section-page";
+//@import "main-page/section-page/section-page-title";
+//@import "main-page/section-page/section-page-header";
+//@import "main-page/section-page/section-page-panel";
+//@import "main-page/section-page/section-page-body";
+//@import "main-page/section-page/section-page-view-all";
+//@import "main-page/section-page/button-view-all";
+//@import "main-page/section-page/button-section-switch";
+//@import "main-page/section-page/action-desktop";
+//@import "main-page/section-page/articles-desktop";
+//@import "main-page/section-page/reviews-desktop";
+//
+//
+//
+//@import "main-page/footer-main/footer-main";
+//@import "main-page/footer-main/payment-methods";
+//@import "main-page/footer-main/footer-main-hold";
+//@import "main-page/footer-main/soc-net";
+//@import "main-page/footer-main/footer-main-box";
+//@import "main-page/footer-main/footer-main-logo";
+//@import "main-page/footer-main/footer-main-menu";
+//
+//
+//
+//@import "main-page/articles/articles-desktop-list";
+//
+//
+//@import "main-page/reviews/reviews-desktop-list";
+//
+//
 
-@import "main-page/articles/articles-desktop-list";
+//@import "modal-main/modal-main";
+//@import "modal-main/modal-main-close";
+//@import "modal-main/modal-main-content";
+//@import "modal-main/modal-main-substrate";
+//@import "modal-main/modal-main-title";
+//
+//
+//@import "main-page/order-desktop/order-card";
+//@import "main-page/order-desktop/order-card-amount";
+//@import "main-page/order-desktop/order-card-amount-title";
+//@import "main-page/order-desktop/order-card-name";
+//@import "main-page/order-desktop/order-card-price";
+//@import "main-page/order-desktop/order-card-total";
+//@import "main-page/order-desktop/order-card-vendor-code";
+//@import "main-page/order-desktop/order-desktop";
+//@import "main-page/order-desktop/order-desktop-alert";
+//@import "main-page/order-desktop/button-order-card-delete";
+//@import "main-page/order-desktop/button-order-continue";
+//@import "main-page/order-desktop/order-desktop-row";
+//@import "main-page/order-desktop/order-total-full";
+//@import "main-page/order-desktop/order-total-full-sum";
+//@import "main-page/order-desktop/button-go-cart";
 
 
-@import "main-page/reviews/reviews-desktop-list";
-
-
+@import "catalog/goods";
