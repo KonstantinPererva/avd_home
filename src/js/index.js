@@ -128,3 +128,87 @@ if (document.querySelectorAll('.order-tel').length) {
         });
     }
 })();
+
+
+
+
+
+// function MoveClone(firstPoint, secondPoint) {
+//     var self = this;
+//     self.firstPoint = firstPoint;
+//     self.secondPoint = secondPoint;
+//
+//     console.log(self.firstPoint);
+//
+//     self.sizePoint = function(el) {
+//         var height = el.getBoundingClientRect().bottom - el.getBoundingClientRect().top;
+//         var width = el.getBoundingClientRect().right - el.getBoundingClientRect().left;
+//         var top = el.getBoundingClientRect().top;
+//         var left = el.getBoundingClientRect().left;
+//
+//         return {
+//             width: width,
+//             height: height,
+//             top: top,
+//             left: left
+//         }
+//     };
+//
+//     self.point = {
+//         el: null,
+//         width: function () {return self.sizePoint(self.firstPoint.el).width},
+//         height: function () {return self.sizePoint(self.firstPoint.el).height},
+//         top: function () {return self.sizePoint(self.firstPoint.el).top},
+//         left: function () {return self.sizePoint(self.firstPoint.el).left},
+//     };
+//
+//     self.clone = function() {
+//         var clone = self.firstPoint.cloneNode(true);
+//         clone.style.cssText = `
+//                 position: fixed;
+//                 top: ${self.point.top()}px;
+//                 left: ${self.point.left()}px;
+//                 transition: 1000ms;
+//                 display: block;
+//                 width: ${self.point.width()}px;
+//                 height: ${self.point.height()}px;
+//             `;
+//
+//         var appendClone = function () {
+//             console.log(clone);
+//             document.body.appendChild(clone);
+//         };
+//
+//         return {
+//             element: clone,
+//             appendClone: appendClone,
+//         };
+//     };
+//
+//     self.moveCloneIn = function () {
+//         self.point.el = self.firstPoint;
+//         self.clone().appendClone();
+//
+//         // setTimeout(function () {
+//         //     self.point.el = self.secondPoint;
+//         //     self.clone().element;
+//         // }, 1000);
+//     };
+//
+//     self.moveCloneOf = function () {
+//
+//     };
+//
+//     return {
+//         moveCloneIn: self.moveCloneIn
+//     }
+// }
+//
+// document.addEventListener('load', function () {
+//     var clone = new MoveClone(
+//         document.querySelector('.clone-img img'),
+//         document.querySelector('.clone-basket')
+//     );
+//
+//     clone.moveCloneIn();
+// });
